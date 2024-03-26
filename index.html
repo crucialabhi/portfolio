@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8c9568b77.js" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times icon" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars icon" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Devloper</p>
+                <h1>Hi, I'm <span>Abhishek</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Abhishek, a passionate computer engineering student with a keen interest in software development. I am deeply fascinated by the endless possibilities that technology offers in shaping our world, and I thrive on the challenges of creating innovative solutions through code.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Learning</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopment</span><br>Designing Web Apps </li>
+                            <li><span>Problem Solving</span><br>Good Hands On Problem Solving</li>
+                            <li><span>Competitive Programming</span><br>Codechef ☆☆</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>DSA</span><br>Learning Data Structure And Algorithm </li>
+                            <li><span>Web Devlopment</span><br>MERN Stack</li>
+                            <li><span>Competitive Programming</span><br>LeetCode <br> Codechef <br>Coding Ninja <br> GFG(Geek for Geeks)</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor Of Engineering</span><br>2021-2025 Gyanmanjari Institute of Technology (On Going)</li>
+                            <li><span>High School 12<sup>th</sup></span><br>2019-2021 P.V.Modi School,Jamnagar (72%)</li>
+                            <li><span>SSC 10<sup>th</sup></span><br>2018-2019 Adarsh English Medium School (76%)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+               <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Devlopment</h2>
+                <p> we specialize in crafting custom web applications tailored to meet the unique needs of your business. With our expertise in web development technologies and a commitment to excellence, we empower businesses to thrive in the digital landscape.</p>
+                <a href="#">Learn More</a>
+               </div> 
+               <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Small Software</h2>
+                <p>we develop small software solutions tailored to meet the specific needs of small & local  businesses and individuals. From GST calculators to small-scale billing systems, we offer efficient and user-friendly software applications designed to streamline your operations and enhance productivity.</p>
+                <a href="#">Learn More</a>
+               </div>
+               <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Freelancing</h2>
+                <p>A seasoned freelancer with a passion for delivering high-quality solutions tailored to your specific needs to take your bussiness on the digital platform.</p>
+                <a href="#">Learn More</a>
+               </div>
+            </div>
+        </div>
+    </div>
+<!-- portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Courses</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>DSA</h3>
+                    <p>Data Structures and Algorithms form the backbone of computer science and are essential skills for any aspiring programmer or software engineer. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>MERN Stack</h3>
+                    <p>MERN stack - a powerful combination of technologies for building modern and dynamic web applications.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Competitive Programming</h3>
+                    <p>A challenging yet rewarding pursuit that hones your problem-solving abilities, sharpens your algorithmic thinking, and prepares you for success in coding interviews and competitions.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+<!-- ----------------Contact---- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>Abhimishra7383@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>
+                +91 7383906647</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/crucial_abhi?igsh=djQyYWN4NzZ1Y3Uw"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/crucial_abhi?igsh=djQyYWN4NzZ1Y3Uw"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abhishek-mishra-3b371525a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/crucialabhi"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message"  rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright by <span>A</span>bhi.</p>
+    </div>
+</div>
+</body>
+</html> 
