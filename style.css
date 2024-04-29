@@ -404,3 +404,23 @@ form  .btn2{
     margin-top: -40px;
     display: block;
 }
+
+#moveToTopBtn {
+    display:;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #1494b8;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #moveToTopBtn:hover {
+    background-color: #1a84a2;
+  }
+  
