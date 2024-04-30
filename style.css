@@ -320,6 +320,26 @@ form  .btn2{
     color: #1494b8;
     font-weight: 600;
 }
+#moveToTopBtn {
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #1494b8;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #moveToTopBtn:hover {
+    background-color: #1a84a2;
+    color: black;
+  }
 
 /* CSS For small screen */
     nav .icon{
@@ -397,6 +417,26 @@ form  .btn2{
         height: 30px;
       
     }
+    #moveToTopBtn {
+        font-size: 20px;
+        font-weight: 600;
+        height: 50px;
+        width: 50px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px;
+        background-color: #1494b8;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      
+      #moveToTopBtn:hover {
+        background-color: #1a84a2;
+        color: black;
+      }
    
 }
 #msg{
@@ -405,22 +445,5 @@ form  .btn2{
     display: block;
 }
 
-#moveToTopBtn {
-    display:;
-    height: 40px;
-    width: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px;
-    background-color: #1494b8;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  #moveToTopBtn:hover {
-    background-color: #1a84a2;
-  }
+
   
